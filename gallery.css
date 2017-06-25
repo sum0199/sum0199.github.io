@@ -1,0 +1,70 @@
+body {
+	background-image: url(https://source.unsplash.com/VCVI5QUvFAY);
+	background-size: cover;
+	background-position: center;
+	font-family: "Lato";
+}
+
+html {
+	height: 100%;
+}
+
+hr {
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	width: 400px;
+}
+
+h1 {
+	font-size: 5.0em;
+	font-family: "Lobster";
+		text-shadow: 0px 4px 3px red,
+				0px 8px 13px orange,
+				0px 18px 23px yellow;
+}
+
+h1, h3 {
+	color: white;
+}
+
+h3 {
+		text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.2),
+				0px 18px 23px rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+	font-family: "Lobster";
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.btn {
+	font-family: "Lobster";
+}
+
+.navbar-inverse {
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#content
+{
+	padding-top: 25%;
+	text-align: center;
+}
